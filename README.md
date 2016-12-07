@@ -13,30 +13,18 @@ PHP 5.4.0 and later
 ## Installation & Usage
 ### Composer
 
-To install the bindings via [Composer](http://getcomposer.org/), add the following to `composer.json`:
+To install via [Composer](http://getcomposer.org/), run following:
 
 ```
-{
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git"
-    }
-  ],
-  "require": {
-    "GIT_USER_ID/GIT_REPO_ID": "*@dev"
-  }
-}
+composer require kubiq/eve-esi
 ```
-
-Then run `composer install`
 
 ### Manual Installation
 
 Download the files and include `autoload.php`:
 
 ```php
-    require_once('/path/to/SwaggerClient-php/autoload.php');
+require_once('/path/to/SwaggerClient-php/autoload.php');
 ```
 
 ## Tests
@@ -342,7 +330,7 @@ Class | Method | HTTP request | Description
 
 
 ## Author
-
+Jakub Pistek <email@jakubpistek.cz>
 
 
 
